@@ -1,1 +1,7 @@
 # Wordle-Game-in-C
+In this program, we can play the game Wordle. See The New York Times website website to play the game (you can press on the “?” icon in the top left corner for a demonstration of game rules). Note that the official Wordle game supports a Hard Mode which requires that "any revealed hints must be used in subsequent guesses" and an Easy Mode that only requires that every guess is a valid five-letter English word.
+You are given an interface file to the module that cover the game's logic, which you need to implement; see the documentation in wordle.h for a description of each function.
+
+You are also provided with two Wordle clients: one that allows you to play the game interactively in the console (interactive.c), and another that can be used to write and run tests non-interactively (iotest-wordle.c). Please refer to the provided simple test and to the implementation of the client to understand the format of the testing framework.
+
+The interactive client supports three modes of playing: hard (as described above), normal (ensuring each guess is a valid word), and easy (allowing you to enter any sequence of characters for a guess). The functions you will implement support the game's logic on words of any length. Our interactive client uses a list of valid five-letter English words (see wordlist.h) so it only supports the game on five-letter words. Once you implement wordle.c, you will be able to play your very own Wordle! Have fun!
