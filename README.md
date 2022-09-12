@@ -9,7 +9,7 @@ Instructions:
 The interactive client supports three modes of playing: hard (as described above), normal (ensuring each guess is a valid word), and easy (allowing you to enter any sequence of characters for a guess). 
 
 - Then you can start guessing! 
-For example: if you type "world", and it shows like "..or.", then the "." means this letter is not in the right word.
+For example: you type "world", and it shows like ". . o r ." The "." here means this letter is not in the right word.
 - the output of capital letters means the letter is in the right place of the answer word.
 - the output of lower case letter then means the letter is in the word, but not correct place.
 - For your convience, it will also show an alphabet to let you know whats the rest possible letters you can guess, so the "." in that alphabet means the letter is not in that correct word, so dont choose that letter again!!
