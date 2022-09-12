@@ -4,7 +4,7 @@ In this program, we can play the game Wordle. See The New York Times website web
 it is provided with a Wordle client: one that allows you to play the game interactively in the console (interactive.c)
 
 Instructions:
-- first you need run the code, then enter 5 as valid letters.
+- first you need run the code, then enter 5 valid letters.
 - secondly, you choose the difficulties(easy, normal, and hard)
 The interactive client supports three modes of playing: hard (as described above), normal (ensuring each guess is a valid word), and easy (allowing you to enter any sequence of characters for a guess). 
 
